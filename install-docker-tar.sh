@@ -56,6 +56,7 @@ EOF
 # ====
 # 檢查 docker 群組
 getent group docker
+sudo groupadd docker
 
 #-----------
 #sudo usermod -aG docker $USER
