@@ -101,4 +101,4 @@ sudo systemctl enable --now containerd
 # 啟用 docker.socket 即可，它會自動啟動 docker.service
 sudo systemctl enable docker.socket --now
 sudo systemctl enable docker
-
+sudo systemctl start docker
